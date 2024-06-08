@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hope-Contact us </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style >body {
+      margin: 2;
+      background-color: black;
+    }
+
+    /* Style the header */
+    .header {
+      background-image: linear-gradient(to right, red , white);
+      padding: 10px;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center; 
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }   
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }</style>
+</head>
+<body>
+  <!-------------------------------------------Headerrrrrrrrrr------------------------------------------------------>
+<div class="header">
+
+  <h1 style="text-shadow: 2px 2px 5px white; font: bold; 44px 'Cookie', cursive; padding-right: 5px; padding-left: 5px;"><img src="images\o.jpg" height="70" width="100" style="border-radius: 20% 20% 50% 50%;" align="left"><img src="images\hope.jpg" height="70" width="200" style="padding: 0px; padding-right: 15px;  " align="center">"TOGEATHER WE can CHANGE Many Young LIVES"</h1>
+</div>
+
+
+<!---------------------------------------------------------------Navbar-------------------------------------------->
+<div>
+<ul>
+  <li style="background-color:;"><a href="index.html">Home &#127969;</a></li>
+  <li><a href="index.html">News & Press &#128226;</a></li>
+  <li><a href="ourmission.html">Our Mission  &#128150;</a></li>
+  <li><a href="contact.html">Contact Us &#128233;</a></li>
+  <li class="dropdown">
+    <a href="index.html" class="dropbtn">More  &#128315;</a>
+    <div class="dropdown-content">
+      <a href="#">About us</a>
+      <a href="#">Feedback</a>
+      <a href="index.html/#M2">Join Hope</a>
+    </div>
+  </li>
+  <li style="float:right; padding-top:5px"><a  href="" style="background-color: orange; display: inline-block; padding:10px 20px;  border-radius: 25px ;"  >Donate</a></li>
+</ul>
+</div>
+
+
+<!----------------------------------------------------Contact us Formmmm---------------------------------------------->
+
+<div class="container my-3">
+    <h3 style="color:white">Contact Us/ Feedback</h3>
+    <form action="" method="post">
+  <div class="form-group">
+    <label style="color:white;" for="name">Name</label>
+    <input type="text" class="form-control" id="name" name='name' placeholder="Enter Your Name">
+  </div>
+  <div class="form-group">
+    <label style="color:white;" for="name">Email</label>
+    <input type="email" class="form-control" id="email" name='email' placeholder="Enter Your Email">
+  </div>
+
+    <div class="form-group">
+    <label style="color:white;" for="name">Phone</label>
+    <input type="tel" class="form-control" id="phone" name='phone' placeholder="Enter Your Phone Number">
+  </div>
+
+
+   <div class="form-group">
+    <label style="color:white;" for="desc">How May We Help You?/Feedback</label>
+    <textarea class="form-control" id="desc" name='desc' rows="3"></textarea>
+  </div>
+  <br>
+        <button type="submit" class="btn btn-success" >Submit</button>
+</form>
+
+
+
+</div>
+</body>
+</html>
